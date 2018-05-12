@@ -42,6 +42,11 @@ class InformeController extends Controller {
             ]
         ];
     }
+
+public function obtenerDescripcion(){
+	return $this->nombre;
+}
+
 	
 	/**
 	 * Lists all Informe models.
