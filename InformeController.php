@@ -44,7 +44,9 @@ class InformeController extends Controller {
     }
 
 public function obtenerDescripcion(){
-	return $this->nombre;
+	IF(!empty($this->nombre) return $this->nombre;
+
+	return "No tiene descripcion";
 }
 
 	
