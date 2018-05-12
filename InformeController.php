@@ -42,6 +42,13 @@ class InformeController extends Controller {
             ]
         ];
     }
+
+public function obtenerDescripcion(){
+	IF(!empty($this->nombre) return $this->nombre;
+
+	return "No tiene descripcion";
+}
+
 	
 	/**
 	 * Lists all Informe models.
